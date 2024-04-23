@@ -126,11 +126,8 @@ function AutoLayoutSizingExample() {
      <Col sm={6}>
       <center>
       <Typography style={{}}>no of scenecs shot on schedule1-3</Typography>
-      <Link onClick={() => {
-      
-                  window.location.href="/stat"
-                    alert("Redirecting to stats");
-      }}
+      <Link to='/stat'
+                   
             >
         <BarChart
           width={600}
