@@ -126,7 +126,7 @@ function AutoLayoutSizingExample() {
      <Col sm={6}>
       <center>
       <Typography style={{}}>no of scenecs shot on schedule1-3</Typography>
-      <Link to='/stat'
+      <Link to='https//:krishnasaisakkari.github.io/stat'
                    
             >
         <BarChart
