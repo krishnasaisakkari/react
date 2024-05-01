@@ -25,7 +25,7 @@ function App() {
       <Col sm={10} style={{backgroundColor:'#E0E1DD'}}>
       <Routes>
         <Route path='/about' exact Component={Home}/>
-        <Route path='/' exact Component={About}/>
+        <Route path='/react' exact Component={About}/>
         <Route path='/dashboard' exact Component={About}/>
         <Route path='/products' exact Component={Products}/>
         <Route path='/stat' exact Component={Stat}/>
